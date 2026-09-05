@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vibe Coder — сайты, интерфейсы и digital-проекты</title>
+  <meta name="description" content="Я делаю сайты, интерфейсы и digital-проекты, которые выглядят как вайб, а работают как система. Лендинги, портфолио, AI-first продукты.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Unbounded:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">К содержанию</a>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="vignette" aria-hidden="true"></div>
+
+  <header class="header">
+    <div class="container header__inner">
+      <a class="logo" href="#top">
+        <span class="logo__mark">VC</span>
+        <span class="logo__text">Vibe Coder</span>
+      </a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden>
+      <label for="nav-toggle" class="nav-burger" aria-label="Открыть меню">
+        <span></span>
+      </label>
+
+      <nav class="nav" aria-label="Основное меню">
+        <a href="#about">Обо мне</a>
+        <a href="#skills">Что я делаю</a>
+        <a href="#projects">Проекты</a>
+        <a href="#approach">Подход</a>
+        <a href="#contact">Контакты</a>
+        <a class="btn btn--small" href="#cta">Обсудить задачу</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero__glow" aria-hidden="true"></div>
+      <div class="hero__gridlines" aria-hidden="true"></div>
+      <div class="frame hero__frame" aria-hidden="true">
+        <span></span><span></span><span></span><span></span>
+      </div>
+
+      <div class="container hero__layout">
+        <div class="hero__copy">
+          <p class="eyebrow hero-anim" style="--d:0">Vibe Coder / Portfolio / Web &amp; AI Experiences</p>
+          <h1 class="hero-anim" style="--d:1">
+            Я делаю сайты, интерфейсы и digital-проекты, которые выглядят как
+            <span class="accent">вайб</span>, а работают как система
+          </h1>
+          <p class="lead hero-anim" style="--d:2">
+            Не просто «что-то сверстать», а собрать ощущение, стиль, логику и подачу так,
+            чтобы проект хотелось открыть, листать и запомнить.
+          </p>
+          <div class="hero__actions hero-anim" style="--d:3">
+            <a class="btn" href="#projects">Посмотреть проекты</a>
+            <a class="btn btn--ghost" href="#cta">Обсудить задачу</a>
+          </div>
+        </div>
+
+        <aside class="hero__portrait hero-anim" style="--d:4" aria-label="Портрет">
+          <div class="hero__portrait-frame cursor-target">
+            <span class="hero__portrait-corner" aria-hidden="true"></span>
+            <span class="hero__portrait-corner" aria-hidden="true"></span>
+            <span class="hero__portrait-corner" aria-hidden="true"></span>
+            <span class="hero__portrait-corner" aria-hidden="true"></span>
+            <img
+              class="hero__portrait-img"
+              src="hero-photo.jpg"
+              alt="Портрет Vibe Coder"
+              width="640"
+              height="640"
+            >
+            <div class="hero__portrait-scan" aria-hidden="true"></div>
+            <div class="hero__portrait-fade" aria-hidden="true"></div>
+            <p class="hero__portrait-tag">Vibe Coder</p>
+          </div>
+          <div class="hero__portrait-meta">
+            <p class="hero__live"><span></span> open for projects</p>
+            <p class="hero__panel-note">Сначала ощущение.<br>Потом структура.<br>Потом сборка.</p>
+          </div>
+        </aside>
+      </div>
+
+      <div class="ticker" aria-hidden="true">
+        <div class="ticker__track">
+          <span>лендинги</span><span>портфолио</span><span>промо-страницы</span><span>интерфейсы</span><span>спецпроекты</span><span>digital-концепты</span><span>AI-first</span>
+          <span>лендинги</span><span>портфолио</span><span>промо-страницы</span><span>интерфейсы</span><span>спецпроекты</span><span>digital-концепты</span><span>AI-first</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container about__grid">
+        <div class="about__intro">
+          <p class="section-index">01 — Обо мне</p>
+          <h2>Я не просто пишу код — я собираю впечатление</h2>
+          <p>
+            Я работаю на стыке кода, визуала, UX и AI-инструментов.
+            Для меня сайт — это не набор блоков. Это ощущение от проекта,
+            ритм, подача, структура и то, как человек чувствует себя внутри интерфейса.
+          </p>
+          <p class="about__punch">
+            Мой подход — сделать быстро, красиво и не бездумно.
+            Чтобы проект не выглядел как очередной шаблон, собранный без вкуса и идеи.
+          </p>
+        </div>
+        <aside class="about__list">
+          <p class="about__list-label">Я делаю</p>
+          <ul>
+            <li>лендинги</li>
+            <li>портфолио</li>
+            <li>промо-страницы</li>
+            <li>интерфейсы</li>
+            <li>спецпроекты</li>
+            <li>digital-концепты</li>
+            <li>AI-first сайты и продукты</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="container">
+        <p class="section-index">02 — Навыки</p>
+        <h2>Что я делаю</h2>
+        <div class="skills__list">
+          <article class="skill-row">
+            <span class="skill-row__num">01</span>
+            <h3>Лендинги</h3>
+            <p>Сайты, которые не просто «есть», а собирают внимание, держат ритм и ведут человека по смыслу.</p>
+          </article>
+          <article class="skill-row">
+            <span class="skill-row__num">02</span>
+            <h3>Портфолио и личные сайты</h3>
+            <p>Страницы, которые показывают не только работы, но и стиль, характер и уровень.</p>
+          </article>
+          <article class="skill-row">
+            <span class="skill-row__num">03</span>
+            <h3>Визуальные концепты</h3>
+            <p>Когда нужен не просто сайт, а ощущение: атмосфера, характер, настроение, подача.</p>
+          </article>
+          <article class="skill-row">
+            <span class="skill-row__num">04</span>
+            <h3>AI + Web</h3>
+            <p>Использую нейросети как инструмент ускорения и усиления идей, а не как замену мышлению.</p>
+          </article>
+          <article class="skill-row">
+            <span class="skill-row__num">05</span>
+            <h3>UX и структура</h3>
+            <p>Продумываю, как человек читает, куда смотрит, где теряется и где принимает решение.</p>
+          </article>
+          <article class="skill-row">
+            <span class="skill-row__num">06</span>
+            <h3>Быстрый запуск</h3>
+            <p>Могу собрать сильную первую версию быстро, без месяцев бесконечных согласований.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section approach" id="approach">
+      <div class="container">
+        <p class="section-index">03 — Метод</p>
+        <h2>Как я работаю</h2>
+        <div class="approach__rail">
+          <article class="step">
+            <p class="step__num">01</p>
+            <h3>Сначала вайб</h3>
+            <p>Я смотрю не только на задачу, но и на ощущение, которое должен передавать проект.</p>
+          </article>
+          <article class="step">
+            <p class="step__num">02</p>
+            <h3>Потом структура</h3>
+            <p>Красивый сайт без логики — это просто красивая обёртка. Поэтому я собираю смысл, сценарий и путь пользователя.</p>
+          </article>
+          <article class="step">
+            <p class="step__num">03</p>
+            <h3>Потом реализация</h3>
+            <p>Когда есть стиль и логика, проект собирается быстрее, точнее и выглядит сильно.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="container">
+        <p class="section-index">04 — Кейсы</p>
+        <h2>Избранные проекты</h2>
+        <p class="projects__lead">Промо работ в одном ритме: одинаковый кадр, сильный визуал и понятная подача.</p>
+        <div class="projects__grid">
+          <article class="project">
+            <div class="project__media">
+              <img src="images/landing.jpg" alt="Лендинг: королевский кот и финансы" width="800" height="500" loading="lazy">
+              <span class="project__num">01</span>
+            </div>
+            <div class="project__body">
+              <h3>Лендинги</h3>
+              <p>Сайты, которые собирают внимание, держат ритм и ведут человека по смыслу.</p>
+              <p class="project__meta">Структура · тексты · визуал · CTA</p>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project__media">
+              <img src="images/portfolio.png" alt="Портфолио: Vibe Coding" width="800" height="500" loading="lazy">
+              <span class="project__num">02</span>
+            </div>
+            <div class="project__body">
+              <h3>Портфолио и личные сайты</h3>
+              <p>Страницы, которые показывают не только работы, но и стиль, характер и уровень.</p>
+              <p class="project__meta">Позиционирование · подача · упаковка кейсов</p>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project__media">
+              <img src="images/concepts.jpg" alt="Визуальные концепты: олимпиада vibe coding" width="800" height="500" loading="lazy">
+              <span class="project__num">03</span>
+            </div>
+            <div class="project__body">
+              <h3>Визуальные концепты</h3>
+              <p>Когда нужен не просто сайт, а ощущение: атмосфера, характер, настроение, подача.</p>
+              <p class="project__meta">Creative direction · атмосфера · характер</p>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project__media">
+              <img src="images/ai-web.jpg" alt="AI + Web: человек и робот за работой" width="800" height="500" loading="lazy">
+              <span class="project__num">04</span>
+            </div>
+            <div class="project__body">
+              <h3>AI + Web</h3>
+              <p>Нейросети как инструмент ускорения и усиления идей, а не как замена мышлению.</p>
+              <p class="project__meta">AI-first · интерфейсы · цифровые продукты</p>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project__media">
+              <img src="images/ux.jpg" alt="UX и структура: команда и AI-интерфейс" width="800" height="500" loading="lazy">
+              <span class="project__num">05</span>
+            </div>
+            <div class="project__body">
+              <h3>UX и структура</h3>
+              <p>Продумываю, как человек читает, куда смотрит, где теряется и где принимает решение.</p>
+              <p class="project__meta">Сценарий · логика блоков · путь пользователя</p>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project__media">
+              <img src="images/launch.jpg" alt="Быстрый запуск: Cursor AI Vibecoding" width="800" height="500" loading="lazy">
+              <span class="project__num">06</span>
+            </div>
+            <div class="project__body">
+              <h3>Быстрый запуск</h3>
+              <p>Сильная первая версия быстро, без месяцев бесконечных согласований.</p>
+              <p class="project__meta">MVP · скорость · Telegram / web</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section testimonials" id="testimonials">
+      <div class="container">
+        <p class="section-index">05 — Отзывы</p>
+        <h2>Что говорят после запуска</h2>
+        <p class="intro testimonials__intro">Коротко о том, как ощущается работа: от первого вайба до готовой страницы.</p>
+
+        <div class="testimonial-carousel" data-carousel>
+          <div class="testimonial-carousel__stage">
+            <article class="testimonial-card" data-card data-index="0">
+              <button class="testimonial-card__arrow testimonial-card__arrow--prev" type="button" aria-label="Предыдущий отзыв">←</button>
+              <button class="testimonial-card__arrow testimonial-card__arrow--next" type="button" aria-label="Следующий отзыв">→</button>
+              <img
+                class="testimonial-card__avatar"
+                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=160&h=160&fit=crop&crop=face"
+                alt=""
+                width="64"
+                height="64"
+              >
+              <h3>Анна К.</h3>
+              <p class="testimonial-card__role">эксперт · личный бренд</p>
+              <p>Собрали сайт, который наконец-то выглядит как я, а не как шаблон. Быстро, красиво и с характером.</p>
+            </article>
+
+            <article class="testimonial-card" data-card data-index="1">
+              <button class="testimonial-card__arrow testimonial-card__arrow--prev" type="button" aria-label="Предыдущий отзыв">←</button>
+              <button class="testimonial-card__arrow testimonial-card__arrow--next" type="button" aria-label="Следующий отзыв">→</button>
+              <img
+                class="testimonial-card__avatar"
+                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=160&h=160&fit=crop&crop=face"
+                alt=""
+                width="64"
+                height="64"
+              >
+              <h3>Максим Л.</h3>
+              <p class="testimonial-card__role">AI-продукт · лендинг</p>
+              <p>Не просто сверстали — упаковали ощущение продукта. Первый экран сразу цепляет, и люди остаются листать.</p>
+            </article>
+
+            <article class="testimonial-card" data-card data-index="2">
+              <button class="testimonial-card__arrow testimonial-card__arrow--prev" type="button" aria-label="Предыдущий отзыв">←</button>
+              <button class="testimonial-card__arrow testimonial-card__arrow--next" type="button" aria-label="Следующий отзыв">→</button>
+              <img
+                class="testimonial-card__avatar"
+                src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=160&h=160&fit=crop&crop=face"
+                alt=""
+                width="64"
+                height="64"
+              >
+              <h3>Елена В.</h3>
+              <p class="testimonial-card__role">креатор · портфолио</p>
+              <p>Портфолио стало сильнее кейсов: появился стиль, ритм и подача. Хочется пересылать ссылку.</p>
+            </article>
+          </div>
+
+          <div class="testimonial-carousel__dots" data-dots aria-label="Навигация по отзывам">
+            <button type="button" class="is-active" aria-label="Отзыв 1"></button>
+            <button type="button" aria-label="Отзыв 2"></button>
+            <button type="button" aria-label="Отзыв 3"></button>
+          </div>
+          <p class="testimonial-carousel__hint">Листай карточки или жми стрелки</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section why" id="why">
+      <div class="container why__grid">
+        <div>
+          <p class="section-index">06 — Разница</p>
+          <h2>Почему ко мне идут не просто за кодом</h2>
+        </div>
+        <div class="why__content">
+          <p class="why__lead">Потому что я умею видеть проект целиком.</p>
+          <div class="why__split">
+            <div>
+              <p class="why__label">Не только</p>
+              <ul>
+                <li>как это собрать</li>
+              </ul>
+            </div>
+            <div>
+              <p class="why__label">Но и</p>
+              <ul>
+                <li>как это подать</li>
+                <li>как это будет восприниматься</li>
+                <li>где человек зацепится взглядом</li>
+                <li>что запомнит</li>
+                <li>почему это будет выглядеть дороже, чем стоит</li>
+              </ul>
+            </div>
+          </div>
+          <p class="why__formula">эстетика + структура + digital-мышление + скорость</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section stack" id="stack">
+      <div class="container">
+          <p class="section-index">07 — Стек</p>
+        <h2>Инструменты</h2>
+        <div class="badges">
+          <span>ChatGPT</span>
+          <span>Cursor</span>
+          <span>HTML / CSS / JS</span>
+          <span>React</span>
+          <span>Tailwind</span>
+          <span>Framer Motion</span>
+          <span>Figma</span>
+          <span>Tilda / Webflow / custom</span>
+          <span>Telegram / Bots / AI tools</span>
+        </div>
+        <p class="stack__note">
+          Но если честно — главный инструмент не стек, а вкус, насмотренность и умение собирать цельное впечатление.
+        </p>
+      </div>
+    </section>
+
+    <section class="section audience" id="audience">
+      <div class="container audience__grid">
+        <div>
+          <p class="section-index">08 — Для кого</p>
+          <h2>Кому подойдёт моя работа</h2>
+        </div>
+        <ul class="audience__list">
+          <li>экспертам</li>
+          <li>креаторам</li>
+          <li>digital-проектам</li>
+          <li>AI-продуктам</li>
+          <li>студиям</li>
+          <li>тем, кому нужен сайт с характером</li>
+          <li>тем, кто не хочет шаблонную безликую страницу</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="manifesto" id="manifesto">
+      <div class="container manifesto__inner">
+        <div class="frame" aria-hidden="true">
+          <span></span><span></span><span></span><span></span>
+        </div>
+        <blockquote>
+          Хороший сайт — это не когда «нормально сверстано».
+          Это когда у проекта появляется энергия, форма и ощущение, что он живой.
+        </blockquote>
+      </div>
+    </section>
+
+    <section class="section cta" id="cta">
+      <div class="container cta__inner">
+        <p class="section-index">09 — Дальше</p>
+        <h2>Если тебе нужен сайт, который выглядит сильно и ощущается современно — давай соберём</h2>
+        <p class="lead">
+          Могу помочь с концепцией, структурой, упаковкой и реализацией.
+          От первого вайба до готовой страницы.
+        </p>
+        <div class="hero__actions">
+          <a class="btn" href="https://t.me/yourname" target="_blank" rel="noopener noreferrer">Написать мне</a>
+          <a class="btn btn--ghost" href="#projects">Посмотреть работы</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="contact">
+    <div class="container footer__inner">
+      <div>
+        <p class="footer__brand">Vibe Coder</p>
+        <p class="footer__copy">Сайты, интерфейсы и digital-проекты с характером.</p>
+      </div>
+      <div class="footer__contacts">
+        <a href="https://t.me/yourname" target="_blank" rel="noopener noreferrer">Telegram: @yourname</a>
+        <a href="mailto:hello@yourmail.com">Email: hello@yourmail.com</a>
+      </div>
+      <div class="footer__social">
+        <a href="#" target="_blank" rel="noopener noreferrer">Behance</a>
+        <a href="#" target="_blank" rel="noopener noreferrer">Dribbble</a>
+        <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="#" target="_blank" rel="noopener noreferrer">Notion</a>
+        <a href="#" target="_blank" rel="noopener noreferrer">Instagram</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.querySelectorAll(".nav a").forEach(function (link) {
+      link.addEventListener("click", function () {
+        document.getElementById("nav-toggle").checked = false;
+      });
+    });
+
+    (function () {
+      var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      var targets = document.querySelectorAll(
+        ".section, .manifesto, .footer, .skill-row, .project, .step, .badges span, .audience__list li, .about__list, .why__content, .testimonial-carousel"
+      );
+
+      if (reduce) {
+        targets.forEach(function (el) {
+          el.classList.add("is-in");
+        });
+        document.querySelectorAll(".hero-anim").forEach(function (el) {
+          el.classList.add("is-in");
+        });
+        return;
+      }
+
+      document.documentElement.classList.add("js-anim");
+
+      requestAnimationFrame(function () {
+        document.querySelectorAll(".hero-anim").forEach(function (el) {
+          el.classList.add("is-in");
+        });
+      });
+
+      if (!("IntersectionObserver" in window)) {
+        targets.forEach(function (el) {
+          el.classList.add("is-in");
+        });
+        return;
+      }
+
+      var io = new IntersectionObserver(
+        function (entries) {
+          entries.forEach(function (entry) {
+            if (!entry.isIntersecting) return;
+            entry.target.classList.add("is-in");
+            io.unobserve(entry.target);
+          });
+        },
+        { threshold: 0.14, rootMargin: "0px 0px -8% 0px" }
+      );
+
+      targets.forEach(function (el, i) {
+        el.style.setProperty("--i", String(i % 8));
+        io.observe(el);
+      });
+    })();
+
+    (function () {
+      var root = document.querySelector("[data-carousel]");
+      if (!root) return;
+
+      var cards = Array.prototype.slice.call(root.querySelectorAll("[data-card]"));
+      var dots = Array.prototype.slice.call(root.querySelectorAll("[data-dots] button"));
+      var current = 0;
+      var dragX = 0;
+      var startX = 0;
+      var dragging = false;
+      var activeCard = null;
+
+      function wrap(i) {
+        return (i + cards.length) % cards.length;
+      }
+
+      function render(exitX) {
+        exitX = exitX || 0;
+        cards.forEach(function (card, index) {
+          var role = "hidden";
+          if (index === current) role = "current";
+          else if (index === wrap(current + 1)) role = "prev";
+          else if (index === wrap(current + 2)) role = "next";
+
+          card.dataset.role = role;
+          card.style.pointerEvents = role === "current" ? "auto" : "none";
+
+          if (role === "current") {
+            card.style.transform =
+              "translateX(" + exitX + "px) translateY(0) rotate(" + exitX / 20 + "deg) scale(1)";
+            card.style.opacity = "1";
+            card.style.zIndex = "3";
+          } else if (role === "prev") {
+            card.style.transform = "translateX(0) translateY(10px) rotate(-2deg) scale(0.95)";
+            card.style.opacity = "0.55";
+            card.style.zIndex = "2";
+          } else if (role === "next") {
+            card.style.transform = "translateX(0) translateY(20px) rotate(-4deg) scale(0.9)";
+            card.style.opacity = "0.28";
+            card.style.zIndex = "1";
+          } else {
+            card.style.transform = "translateX(0) translateY(28px) scale(0.88)";
+            card.style.opacity = "0";
+            card.style.zIndex = "0";
+          }
+        });
+
+        dots.forEach(function (dot, index) {
+          dot.classList.toggle("is-active", index === current);
+        });
+      }
+
+      function go(delta) {
+        current = wrap(current + delta);
+        dragX = 0;
+        render(0);
+      }
+
+      root.querySelectorAll(".testimonial-card__arrow--next").forEach(function (btn) {
+        btn.addEventListener("click", function (e) {
+          e.stopPropagation();
+          go(1);
+        });
+      });
+
+      root.querySelectorAll(".testimonial-card__arrow--prev").forEach(function (btn) {
+        btn.addEventListener("click", function (e) {
+          e.stopPropagation();
+          go(-1);
+        });
+      });
+
+      dots.forEach(function (dot, index) {
+        dot.addEventListener("click", function () {
+          current = index;
+          render(0);
+        });
+      });
+
+      function onPointerDown(e) {
+        var card = e.currentTarget;
+        if (card.dataset.role !== "current") return;
+        if (e.target.closest("button")) return;
+        dragging = true;
+        activeCard = card;
+        startX = e.clientX || (e.touches && e.touches[0].clientX) || 0;
+        dragX = 0;
+        card.classList.add("is-dragging");
+      }
+
+      function onPointerMove(e) {
+        if (!dragging || !activeCard) return;
+        var x = e.clientX || (e.touches && e.touches[0].clientX) || 0;
+        dragX = x - startX;
+        render(dragX);
+      }
+
+      function onPointerUp() {
+        if (!dragging) return;
+        dragging = false;
+        if (activeCard) activeCard.classList.remove("is-dragging");
+        activeCard = null;
+
+        if (Math.abs(dragX) > 100) {
+          var dir = dragX > 0 ? -1 : 1;
+          render(dragX > 0 ? 220 : -220);
+          setTimeout(function () {
+            go(dir);
+          }, 180);
+        } else {
+          render(0);
+        }
+      }
+
+      cards.forEach(function (card) {
+        card.addEventListener("pointerdown", onPointerDown);
+      });
+      window.addEventListener("pointermove", onPointerMove);
+      window.addEventListener("pointerup", onPointerUp);
+      window.addEventListener("pointercancel", onPointerUp);
+
+      render(0);
+    })();
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="target-cursor.js"></script>
+</body>
+</html>
