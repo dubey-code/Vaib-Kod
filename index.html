@@ -48,6 +48,15 @@
 
       <div class="container hero__layout">
         <div class="hero__copy">
+          <div class="hero__card hero-anim" style="--d:0">
+            <p class="hero__card-label">Сайт-визитка</p>
+            <p class="hero__card-name">Игорь Дубей</p>
+            <p class="hero__card-text">
+              Специалист по нейросетям, vibe coding и созданию сайтов для экспертов,
+              специалистов и малого бизнеса. Упаковываю идеи и услуги в современный,
+              понятный и аккуратный digital-формат.
+            </p>
+          </div>
           <p class="eyebrow hero-anim" style="--d:0">Vibe Coder / Portfolio / Web &amp; AI Experiences</p>
           <h1 class="hero-anim" style="--d:1">
             Я делаю сайты, интерфейсы и digital-проекты, которые выглядят как
@@ -193,7 +202,71 @@
         <p class="section-index">04 — Кейсы</p>
         <h2>Избранные проекты</h2>
         <p class="projects__lead">Промо работ в одном ритме: одинаковый кадр, сильный визуал и понятная подача.</p>
+        <div class="cases">
+          <article class="project project--featured">
+            <a class="project__media cursor-target" href="https://flora-flair-ecom.lovable.app" target="_blank" rel="noopener noreferrer">
+              <img src="images/flora.png" alt="Интернет-магазин «Московская весна»: эко-товары с доставкой по Москве" width="1600" height="1000" loading="lazy">
+              <span class="project__badge">Живой проект</span>
+            </a>
+            <div class="project__body">
+              <p class="project__eyebrow">Кейс · E-commerce</p>
+              <h3>«Московская весна» — интернет-магазин эко-товаров</h3>
+              <p>
+                Нежный весенний магазин товаров ручной работы: свечи, мыло, твёрдые шампуни и zero waste вещи.
+                Каталог, витрина, корзина, быстрый просмотр товаров и понятный блок доставки по Москве.
+              </p>
+              <ul class="project__tags">
+                <li>Каталог</li>
+                <li>Корзина</li>
+                <li>Доставка</li>
+                <li>AI + vibe coding</li>
+              </ul>
+              <a class="btn btn--small project__link" href="https://flora-flair-ecom.lovable.app" target="_blank" rel="noopener noreferrer">Открыть сайт →</a>
+            </div>
+          </article>
+
+          <article class="project project--case">
+            <a class="project__media cursor-target" href="https://dubey-code.github.io/Calculator/" target="_blank" rel="noopener noreferrer">
+              <img src="images/calculator.png" alt="Семейный бюджет — домашний калькулятор" width="1600" height="1000" loading="lazy">
+              <span class="project__badge">Живой проект</span>
+            </a>
+            <div class="project__body">
+              <p class="project__eyebrow">Кейс · Веб-сервис</p>
+              <h3>«Семейный бюджет» — домашний калькулятор</h3>
+              <p>Доходы, расходы, цель накоплений и финансовый резерв. Всё считается в браузере, без регистрации, данные остаются на компьютере.</p>
+              <ul class="project__tags">
+                <li>Доходы / расходы</li>
+                <li>Цели</li>
+                <li>График</li>
+                <li>Тёмная тема</li>
+              </ul>
+              <a class="btn btn--small project__link" href="https://dubey-code.github.io/Calculator/" target="_blank" rel="noopener noreferrer">Открыть калькулятор →</a>
+            </div>
+          </article>
+
+          <article class="project project--case">
+            <a class="project__media cursor-target" href="https://dubey-code.github.io/Game-Test/" target="_blank" rel="noopener noreferrer">
+              <img src="images/game.png" alt="Ночной спринт — 3D гонка в браузере" width="1600" height="1000" loading="lazy">
+              <span class="project__badge">Играбельно</span>
+            </a>
+            <div class="project__body">
+              <p class="project__eyebrow">Кейс · 3D-игра</p>
+              <h3>«Ночной спринт» — 3D гонка в браузере</h3>
+              <p>Трасса, соперники, три круга, старт и финиш. Управление с клавиатуры и сенсорные кнопки для телефона.</p>
+              <ul class="project__tags">
+                <li>3D</li>
+                <li>Соперники</li>
+                <li>3 круга</li>
+                <li>Клавиатура / тач</li>
+              </ul>
+              <a class="btn btn--small project__link" href="https://dubey-code.github.io/Game-Test/" target="_blank" rel="noopener noreferrer">Играть →</a>
+            </div>
+          </article>
+        </div>
+
+        <p class="projects__sublabel">Направления работы</p>
         <div class="projects__grid">
+
           <article class="project">
             <div class="project__media">
               <img src="images/landing.jpg" alt="Лендинг: королевский кот и финансы" width="800" height="500" loading="lazy">
@@ -424,7 +497,7 @@
           От первого вайба до готовой страницы.
         </p>
         <div class="hero__actions">
-          <a class="btn" href="https://t.me/yourname" target="_blank" rel="noopener noreferrer">Написать мне</a>
+          <a class="btn" href="https://t.me/IODubei" target="_blank" rel="noopener noreferrer">Написать мне</a>
           <a class="btn btn--ghost" href="#projects">Посмотреть работы</a>
         </div>
       </div>
@@ -432,22 +505,55 @@
   </main>
 
   <footer class="footer" id="contact">
-    <div class="container footer__inner">
-      <div>
-        <p class="footer__brand">Vibe Coder</p>
-        <p class="footer__copy">Сайты, интерфейсы и digital-проекты с характером.</p>
+    <div class="container contacts">
+      <div class="contacts__intro">
+        <p class="section-index">Контакты</p>
+        <h2 class="contacts__title">Давай обсудим <span class="accent">твой проект</span></h2>
+        <p class="contacts__text">
+          Если тебе нужен сайт-визитка, портфолио или понятная digital-упаковка проекта — напиши мне.
+          Обсудим задачу, подберём формат и соберём решение, которое работает на результат.
+        </p>
       </div>
-      <div class="footer__contacts">
-        <a href="https://t.me/yourname" target="_blank" rel="noopener noreferrer">Telegram: @yourname</a>
-        <a href="mailto:hello@yourmail.com">Email: hello@yourmail.com</a>
+
+      <div class="contacts__links">
+        <a class="contact-link contact-link--tg cursor-target" href="https://t.me/IODubei" target="_blank" rel="noopener noreferrer">
+          <span class="contact-link__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M21.9 4.3 18.6 19.9c-.2 1.1-.9 1.4-1.8.9l-5-3.7-2.4 2.3c-.3.3-.5.5-1 .5l.4-5.1 9.3-8.4c.4-.4-.1-.6-.6-.2L6 13.4l-4.9-1.5c-1.1-.3-1.1-1.1.2-1.6L20.5 2.9c.9-.3 1.7.2 1.4 1.4z"/></svg>
+          </span>
+          <span class="contact-link__body">
+            <span class="contact-link__name">Telegram</span>
+            <span class="contact-link__value">@IODubei</span>
+          </span>
+          <span class="contact-link__arrow" aria-hidden="true">→</span>
+        </a>
+
+        <a class="contact-link contact-link--vk cursor-target" href="https://vk.com/id102552295" target="_blank" rel="noopener noreferrer">
+          <span class="contact-link__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M15.07 2H8.93C3.33 2 2 3.33 2 8.93v6.14C2 20.67 3.33 22 8.93 22h6.14c5.6 0 6.93-1.33 6.93-6.93V8.93C22 3.33 20.67 2 15.07 2zm3.08 14.27h-1.46c-.55 0-.72-.44-1.71-1.44-.86-.83-1.24-.94-1.45-.94-.3 0-.38.08-.38.49v1.31c0 .35-.11.56-1.04.56-1.54 0-3.25-.93-4.45-2.67-1.81-2.54-2.31-4.45-2.31-4.84 0-.21.08-.41.49-.41h1.46c.37 0 .51.17.65.56.72 2.08 1.92 3.9 2.41 3.9.18 0 .27-.08.27-.55V10.1c-.06-.99-.58-1.07-.58-1.42 0-.17.14-.34.37-.34h2.29c.31 0 .42.17.42.54v2.9c0 .31.14.42.23.42.18 0 .34-.11.68-.45 1.05-1.18 1.8-3 1.8-3 .1-.21.27-.41.64-.41h1.46c.44 0 .54.23.44.54-.18.85-1.97 3.38-1.97 3.38-.16.25-.21.37 0 .65.16.21.67.66 1.02 1.06.63.72 1.12 1.32 1.25 1.74.13.41-.08.62-.5.62z"/></svg>
+          </span>
+          <span class="contact-link__body">
+            <span class="contact-link__name">ВКонтакте</span>
+            <span class="contact-link__value">vk.com/id102552295</span>
+          </span>
+          <span class="contact-link__arrow" aria-hidden="true">→</span>
+        </a>
+
+        <a class="contact-link contact-link--mail cursor-target" href="mailto:dubeiiod@mail.ru">
+          <span class="contact-link__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10h5v-2h-5c-4.34 0-8-3.66-8-8s3.66-8 8-8 8 3.66 8 8v1.43c0 .79-.71 1.57-1.5 1.57s-1.5-.78-1.5-1.57V12c0-2.76-2.24-5-5-5s-5 2.24-5 5 2.24 5 5 5c1.38 0 2.64-.56 3.54-1.47.65.89 1.77 1.47 2.96 1.47 1.97 0 3.5-1.6 3.5-3.57V12c0-5.52-4.48-10-10-10zm0 13c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z"/></svg>
+          </span>
+          <span class="contact-link__body">
+            <span class="contact-link__name">Mail.ru</span>
+            <span class="contact-link__value">dubeiiod@mail.ru</span>
+          </span>
+          <span class="contact-link__arrow" aria-hidden="true">→</span>
+        </a>
       </div>
-      <div class="footer__social">
-        <a href="#" target="_blank" rel="noopener noreferrer">Behance</a>
-        <a href="#" target="_blank" rel="noopener noreferrer">Dribbble</a>
-        <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
-        <a href="#" target="_blank" rel="noopener noreferrer">Notion</a>
-        <a href="#" target="_blank" rel="noopener noreferrer">Instagram</a>
-      </div>
+    </div>
+
+    <div class="container footer__bottom">
+      <p>© 2026 Игорь Дубей</p>
+      <p>Нейросети · vibe coding · сайты</p>
     </div>
   </footer>
 
